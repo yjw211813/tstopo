@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <el-config-provider :locale="locale">
+    <el-watermark style="height: 100%" :font="font" :content="appStore.watermarking ? 'ZHOUYI' : ''" :zIndex="9999">
+      <HomePage />
+    </el-watermark>
+  </el-config-provider>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import { reactive } from 'vue'
+import { useAppStore } from "@/stores/AppSetting.js"
+import zhCn from 'element-plus/es/locale/lang/zh-cn'
+import HomePage from './components/HomePage.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+const appStore = useAppStore()
+appStore.initThemeColor()
+
+const font = reactive({
+  color: 'rgba(0, 0, 0, .15)',
+})
+
+const locale = zhCn
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+@import './assets/styles/font.css';
 </style>
+
