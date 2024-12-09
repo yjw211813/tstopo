@@ -1,0 +1,755 @@
+{
+    "topology": [
+        {
+            "rxX": 121.60851550651799,
+            "rxY": 25.923094244072438,
+            "rxZ": 851.7579589255739,
+            "txX": 121.39392826251961,
+            "txY": 25.002282348005465,
+            "txZ": 4939.894854041133,
+            "delay": 47,
+            "bandwidth": 334,
+            "packageLoss": 5,
+            "jitter": 1,
+            "rxId": "CAR_CE_2",
+            "rxType": "CAR_CE",
+            "txId": "2001",
+            "txType": "red_command"
+        },
+        {
+            "rxX": 121.89845038293943,
+            "rxY": 25.96143926870461,
+            "rxZ": 22.716550669012236,
+            "txX": 121.94718512531861,
+            "txY": 25.5644052494167,
+            "txZ": 5129.3112696345925,
+            "delay": 123,
+            "bandwidth": 18,
+            "packageLoss": 15,
+            "jitter": 9,
+            "rxId": "CAR_CE_13",
+            "rxType": "CAR_CE",
+            "txId": "2001",
+            "txType": "red_command"
+        },
+        {
+            "rxX": 121.16433985358003,
+            "rxY": 25.44793279848356,
+            "rxZ": 531.0816412296278,
+            "txX": 121.11497075204886,
+            "txY": 25.095188307336148,
+            "txZ": 2607.1493844203856,
+            "delay": 32,
+            "bandwidth": 473,
+            "packageLoss": 10,
+            "jitter": 19,
+            "rxId": "CAR_CE_24",
+            "rxType": "CAR_CE",
+            "txId": "2001",
+            "txType": "red_command"
+        },
+        {
+            "rxX": 121.62960881970646,
+            "rxY": 25.368245106627715,
+            "rxZ": 761.5624739832856,
+            "txX": 121.60845163975748,
+            "txY": 25.175589261696896,
+            "txZ": 1019.8924838835917,
+            "delay": 77,
+            "bandwidth": 279,
+            "packageLoss": 17,
+            "jitter": 25,
+            "rxId": "OPUAV_3",
+            "rxType": "OPUAV",
+            "txId": "CAR_CE_2",
+            "txType": "CAR_CE"
+        },
+        {
+            "rxX": 121.72044297787492,
+            "rxY": 25.048262249557855,
+            "rxZ": 97.68140166968631,
+            "txX": 121.29606712269565,
+            "txY": 25.029659171161832,
+            "txZ": 5913.1601517323625,
+            "delay": 132,
+            "bandwidth": 64,
+            "packageLoss": 8,
+            "jitter": 20,
+            "rxId": "EJUAV_14",
+            "rxType": "EJUAV",
+            "txId": "CAR_CE_13",
+            "txType": "CAR_CE"
+        },
+        {
+            "rxX": 121.81254700859556,
+            "rxY": 25.25234943038762,
+            "rxZ": 954.8112171256146,
+            "txX": 121.55876937793873,
+            "txY": 25.8937503188256,
+            "txZ": 3919.1131308138083,
+            "delay": 183,
+            "bandwidth": 11,
+            "packageLoss": 5,
+            "jitter": 23,
+            "rxId": "EJUAV_1_25",
+            "rxType": "EJUAV_1",
+            "txId": "CAR_CE_24",
+            "txType": "CAR_CE"
+        }
+    ],
+    "platform": [
+        {
+            "commandChain": "red_chain SELF",
+            "id": 1,
+            "platformHeight": 0.984,
+            "platformLatitude": 24.868957,
+            "platformLongitude": 118.536193,
+            "platformName": "2001",
+            "platformSide": 0,
+            "platformType": "red_command",
+            "sceneName": "256_nodes",
+            "cpuType": 4,
+            "memory": 4,
+            "type": "cloud",
+            "cluster_id": -999,
+            "range": 100,
+            "protocols": [
+                3,
+                4
+            ]
+        },
+        {
+            "type": "edge",
+            "range": 10,
+            "protocols": [
+                1,
+                2,
+                4
+            ],
+            "platformType": "CAR_CE",
+            "sceneName": "256_nodes",
+            "platformName": "CAR_CE_2",
+            "platformSide": 0,
+            "id": 2,
+            "commandChain": "red_chain SELF",
+            "cluster_id": -1,
+            "platformHeight": 0.591,
+            "platformLatitude": 15.532417,
+            "platformLongitude": 64.9431,
+            "cpuType": 3,
+            "memory": 1
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "OPUAV",
+            "sceneName": "256_nodes",
+            "platformName": "OPUAV_3",
+            "platformSide": 0,
+            "id": 3,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.501,
+            "platformLatitude": 44.920942,
+            "platformLongitude": 56.44188,
+            "cpuType": 3,
+            "memory": 5
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_1_4",
+            "platformSide": 0,
+            "id": 4,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.382,
+            "platformLatitude": 26.205807,
+            "platformLongitude": 87.49244,
+            "cpuType": 1,
+            "memory": 3
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "OPUAV",
+            "sceneName": "256_nodes",
+            "platformName": "OPUAV_5",
+            "platformSide": 0,
+            "id": 5,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.37,
+            "platformLatitude": 35.99889,
+            "platformLongitude": 48.333364,
+            "cpuType": 3,
+            "memory": 1
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_1_6",
+            "platformSide": 0,
+            "id": 6,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.462,
+            "platformLatitude": 50.890666,
+            "platformLongitude": 72.127241,
+            "cpuType": 2,
+            "memory": 1
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_7",
+            "platformSide": 0,
+            "id": 7,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.385,
+            "platformLatitude": 7.911439,
+            "platformLongitude": 30.594951,
+            "cpuType": 1,
+            "memory": 4
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "MISVEHICLE",
+            "sceneName": "256_nodes",
+            "platformName": "MISVEHICLE_8",
+            "platformSide": 0,
+            "id": 8,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.941,
+            "platformLatitude": 8.567899,
+            "platformLongitude": 33.782027,
+            "cpuType": 3,
+            "memory": 5
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "EJUAV",
+            "sceneName": "256_nodes",
+            "platformName": "EJUAV_9",
+            "platformSide": 0,
+            "id": 9,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.352,
+            "platformLatitude": 35.494171,
+            "platformLongitude": 23.031065,
+            "cpuType": 4,
+            "memory": 1
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "EJUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "EJUAV_1_10",
+            "platformSide": 0,
+            "id": 10,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.48,
+            "platformLatitude": 94.681425,
+            "platformLongitude": 93.771409,
+            "cpuType": 4,
+            "memory": 1
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "OPUAV",
+            "sceneName": "256_nodes",
+            "platformName": "OPUAV_11",
+            "platformSide": 0,
+            "id": 11,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.853,
+            "platformLatitude": 86.18259,
+            "platformLongitude": 78.196101,
+            "cpuType": 3,
+            "memory": 3
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_12",
+            "platformSide": 0,
+            "id": 12,
+            "cluster_id": 1,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.77,
+            "platformLatitude": 22.502934,
+            "platformLongitude": 74.841984,
+            "cpuType": 3,
+            "memory": 2
+        },
+        {
+            "type": "edge",
+            "range": 10,
+            "protocols": [
+                1,
+                2,
+                4
+            ],
+            "platformType": "CAR_CE",
+            "sceneName": "256_nodes",
+            "platformName": "CAR_CE_13",
+            "platformSide": 0,
+            "id": 13,
+            "commandChain": "red_chain SELF",
+            "cluster_id": -2,
+            "platformHeight": 0.285,
+            "platformLatitude": 38.891762,
+            "platformLongitude": 47.112234,
+            "cpuType": 4,
+            "memory": 3
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "EJUAV",
+            "sceneName": "256_nodes",
+            "platformName": "EJUAV_14",
+            "platformSide": 0,
+            "id": 14,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.502,
+            "platformLatitude": 0.899922,
+            "platformLongitude": 82.927029,
+            "cpuType": 3,
+            "memory": 2
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "EJUAV",
+            "sceneName": "256_nodes",
+            "platformName": "EJUAV_15",
+            "platformSide": 0,
+            "id": 15,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.737,
+            "platformLatitude": 65.890143,
+            "platformLongitude": 34.43749,
+            "cpuType": 2,
+            "memory": 5
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "OPUAV",
+            "sceneName": "256_nodes",
+            "platformName": "OPUAV_16",
+            "platformSide": 0,
+            "id": 16,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.146,
+            "platformLatitude": 70.804656,
+            "platformLongitude": 13.209686,
+            "cpuType": 2,
+            "memory": 3
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_1_17",
+            "platformSide": 0,
+            "id": 17,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.876,
+            "platformLatitude": 98.933228,
+            "platformLongitude": 54.623888,
+            "cpuType": 3,
+            "memory": 5
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "OPUAV",
+            "sceneName": "256_nodes",
+            "platformName": "OPUAV_18",
+            "platformSide": 0,
+            "id": 18,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.057,
+            "platformLatitude": 18.621848,
+            "platformLongitude": 38.492709,
+            "cpuType": 2,
+            "memory": 3
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_1_19",
+            "platformSide": 0,
+            "id": 19,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.996,
+            "platformLatitude": 47.481596,
+            "platformLongitude": 35.036471,
+            "cpuType": 2,
+            "memory": 2
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "OPUAV",
+            "sceneName": "256_nodes",
+            "platformName": "OPUAV_20",
+            "platformSide": 0,
+            "id": 20,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.911,
+            "platformLatitude": 10.920177,
+            "platformLongitude": 46.489387,
+            "cpuType": 2,
+            "memory": 3
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "OPUAV",
+            "sceneName": "256_nodes",
+            "platformName": "OPUAV_21",
+            "platformSide": 0,
+            "id": 21,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.361,
+            "platformLatitude": 30.859222,
+            "platformLongitude": 70.660904,
+            "cpuType": 2,
+            "memory": 1
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_1_22",
+            "platformSide": 0,
+            "id": 22,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.956,
+            "platformLatitude": 90.148563,
+            "platformLongitude": 82.409777,
+            "cpuType": 1,
+            "memory": 4
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_1_23",
+            "platformSide": 0,
+            "id": 23,
+            "cluster_id": 2,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.19,
+            "platformLatitude": 12.416649,
+            "platformLongitude": 43.155034,
+            "cpuType": 3,
+            "memory": 2
+        },
+        {
+            "type": "edge",
+            "range": 10,
+            "protocols": [
+                1,
+                2,
+                4
+            ],
+            "platformType": "CAR_CE",
+            "sceneName": "256_nodes",
+            "platformName": "CAR_CE_24",
+            "platformSide": 0,
+            "id": 24,
+            "commandChain": "red_chain SELF",
+            "cluster_id": -3,
+            "platformHeight": 1.946,
+            "platformLatitude": 88.235606,
+            "platformLongitude": 52.901638,
+            "cpuType": 3,
+            "memory": 3
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "EJUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "EJUAV_1_25",
+            "platformSide": 0,
+            "id": 25,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.702,
+            "platformLatitude": 41.29727,
+            "platformLongitude": 30.905385,
+            "cpuType": 2,
+            "memory": 1
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "EJUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "EJUAV_1_26",
+            "platformSide": 0,
+            "id": 26,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.577,
+            "platformLatitude": 2.020436,
+            "platformLongitude": 18.234741,
+            "cpuType": 2,
+            "memory": 4
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "OPUAV",
+            "sceneName": "256_nodes",
+            "platformName": "OPUAV_27",
+            "platformSide": 0,
+            "id": 27,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.353,
+            "platformLatitude": 97.173448,
+            "platformLongitude": 6.279701,
+            "cpuType": 2,
+            "memory": 2
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "EJUAV",
+            "sceneName": "256_nodes",
+            "platformName": "EJUAV_28",
+            "platformSide": 0,
+            "id": 28,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.261,
+            "platformLatitude": 86.830711,
+            "platformLongitude": 3.359749,
+            "cpuType": 1,
+            "memory": 5
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "OPUAV",
+            "sceneName": "256_nodes",
+            "platformName": "OPUAV_29",
+            "platformSide": 0,
+            "id": 29,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.357,
+            "platformLatitude": 58.884785,
+            "platformLongitude": 64.343133,
+            "cpuType": 3,
+            "memory": 4
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "MISVEHICLE",
+            "sceneName": "256_nodes",
+            "platformName": "MISVEHICLE_30",
+            "platformSide": 0,
+            "id": 30,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.826,
+            "platformLatitude": 41.160169,
+            "platformLongitude": 83.88974,
+            "cpuType": 4,
+            "memory": 1
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_1_31",
+            "platformSide": 0,
+            "id": 31,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.712,
+            "platformLatitude": 73.996199,
+            "platformLongitude": 45.011008,
+            "cpuType": 3,
+            "memory": 2
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_32",
+            "platformSide": 0,
+            "id": 32,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 0.632,
+            "platformLatitude": 41.195541,
+            "platformLongitude": 15.834901,
+            "cpuType": 1,
+            "memory": 3
+        },
+        {
+            "type": "end",
+            "range": 10,
+            "protocols": [
+                2
+            ],
+            "platformType": "EJUAV_1",
+            "sceneName": "256_nodes",
+            "platformName": "EJUAV_1_33",
+            "platformSide": 0,
+            "id": 33,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.114,
+            "platformLatitude": 44.24856,
+            "platformLongitude": 22.44128,
+            "cpuType": 4,
+            "memory": 3
+        },
+        {
+            "type": "end",
+            "range": 150,
+            "protocols": [
+                1
+            ],
+            "platformType": "ERUAV",
+            "sceneName": "256_nodes",
+            "platformName": "ERUAV_34",
+            "platformSide": 0,
+            "id": 34,
+            "cluster_id": 3,
+            "commandChain": "red_chain SELF",
+            "platformHeight": 1.019,
+            "platformLatitude": 60.793211,
+            "platformLongitude": 39.504442,
+            "cpuType": 1,
+            "memory": 3
+        }
+    ]
+}
