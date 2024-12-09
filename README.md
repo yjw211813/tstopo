@@ -46,6 +46,7 @@ npm run build
 npm run lint
 
 ## 项目结构
+```bash
 tstopo/
 ├── public/                # 公共静态资源
 ├── src/                   # 源代码
