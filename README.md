@@ -60,8 +60,8 @@ tstopo/
 │   ├── stores/             # Pinia 状态管理
 │   ├── utils/             # 工具库
 │   ├── App.vue            # 主组件
-│   ├── setting.js         # 主组件
+│   ├── setting.js         # 网站设置信息，请忽略
 │   └── main.js            # 入口文件
-├── package.json           # 网站设置信息，请忽略
+├── package.json           # 依赖包
 ├── vue.config.js          # Vue CLI 配置
 └── so on.                
