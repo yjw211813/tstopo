@@ -21,23 +21,27 @@ cd tstopo
 npm install
 
 或者使用`yarn`安装：
+
 yarn install
 
 ## 开发
 在src/components文件夹下有四个SubComponent子文件夹，各个模块请在对应子文件下开发vue组件，对应关系请看项目结构
 在开发过程中，您可以使用以下命令启动本地开发服务器：
+
 npm run serve
 
 该命令会启动开发服务器并自动打开浏览器，访问地址为 http://localhost:8080。
 
 ## 构建
 要将应用程序构建为生产环境版本，可以运行以下命令：
+
 npm run build
 
 构建后的文件将存储在 dist/ 目录下，您可以将其部署到生产环境。
 
 ## 代码检查
 此项目使用 ESLint 进行代码检查，确保代码风格一致且符合最佳实践。您可以运行以下命令来检查代码：
+
 npm run lint
 
 ## 项目结构
