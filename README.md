@@ -26,6 +26,7 @@ yarn install
 
 ## 开发
 在src/components文件夹下有四个SubComponent子文件夹，各个模块请在对应子文件下开发vue组件，对应关系请看项目结构
+
 在开发过程中，您可以使用以下命令启动本地开发服务器：
 
 npm run serve
