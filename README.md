@@ -24,6 +24,7 @@ npm install
 yarn install
 
 ## 开发
+在src/components文件夹下有四个SubComponent子文件夹，各个模块请在对应子文件下开发vue组件，对应关系请看[项目结构] (## 项目结构)
 在开发过程中，您可以使用以下命令启动本地开发服务器：
 ```bash
 npm run serve
@@ -52,11 +53,12 @@ tstopo/
 |   |   ├──SubComponet_2   # 子页面2：转义模块
 |   |   ├──SubComponet_3   # 子页面3：网管模块
 |   |   ├──SubComponet_4   # 子页面4：认知模块
-│   ├── store/             # Pinia 状态管理
-│   ├── views/             # 页面视图
+|   |   ├──Homepage.vue    # 主页面
+│   ├── stores/             # Pinia 状态管理
+│   ├── utils/             # 工具库
 │   ├── App.vue            # 主组件
+│   ├── setting.js         # 主组件
 │   └── main.js            # 入口文件
-├── .eslintrc.js           # ESLint 配置
-├── package.json           # 项目配置
-├── babel.config.js        # Babel 配置
-└── vue.config.js          # Vue CLI 配置
+├── package.json           # 网站设置信息，请忽略
+├── vue.config.js          # Vue CLI 配置
+└── so on.                
