@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+/src/components/SubComponent_1/
+/src/components/SubComponent_2/
+/src/components/SubComponent_3/
+/src/components/SubComponent_4/
