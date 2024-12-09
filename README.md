@@ -16,9 +16,11 @@
 ```bash
 git clone https://github.com/yourusername/tstopo.git
 cd tstopo
+
 ### 安装依赖
 ```bash
 npm install
+
 或者使用`yarn`安装：
 ```bash
 yarn install
